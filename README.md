@@ -1,2 +1,0 @@
-# swigyclones
-all ui clones

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Swiggy Clone</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-600">Swiggy</h1>
+
+      <button class="sm:hidden text-xl">&#9776;</button>
+
+      <div class="space-x-6 hidden sm:block">
+        <a href="#" class="hover:text-orange-600">Home</a>
+        <a href="#" class="hover:text-orange-600">Offers</a>
+        <a href="#" class="hover:text-orange-600">Help</a>
+        <a href="#" class="hover:text-orange-600">Sign In</a>
+      </div>
+    </nav>
+
+    <!-- SEARCH BAR -->
+    <div class="max-w-2xl mx-auto mt-6 px-3">
+      <input
+        type="text"
+        placeholder="Search for restaurants or food…"
+        class="w-full p-3 rounded-lg shadow border outline-orange-500"
+      />
+    </div>
+
+    <!-- RESTAURANTS SECTION -->
+    <div
+      class="max-w-6xl mx-auto mt-10 px-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+    >
+      <!-- CARD 1 -->
+      <div class="bg-white rounded-xl shadow hover:scale-105 duration-200">
+        <img src="burgar2.png" class="rounded-t-xl w-full h-44 object-cover" />
+        <div class="p-4">
+          <h2 class="font-bold text-lg">Burger King</h2>
+          <p class="text-sm text-gray-500">Burgers, Fast Food</p>
+          <p class="font-semibold mt-2">⭐ 4.1 • 30-35 mins</p>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="bg-white rounded-xl shadow hover:scale-105 duration-200">
+        <img src="pizza1.jpeg" class="rounded-t-xl w-full h-44 object-cover" />
+        <div class="p-4">
+          <h2 class="font-bold text-lg">pizza</h2>
+          <p class="text-sm text-gray-500">pizza</p>
+          <p class="font-semibold mt-2">⭐ 4.1 • 30-35 mins</p>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="bg-white rounded-xl shadow hover:scale-105 duration-200">
+        <img src="biryani2.jpg" class="rounded-t-xl w-full h-44 object-cover" />
+        <div class="p-4">
+          <h2 class="font-bold text-lg">Behrouz Biryani</h2>
+          <p class="text-sm text-gray-500">Biryani, Mughlai</p>
+          <p class="font-semibold mt-2">⭐ 4.5 • 35-40 mins</p>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="bg-white rounded-xl shadow hover:scale-105 duration-200">
+        <img src="samosa.webp"rounded-t-xl w-full h-44 object-cover">
+        <div class="p-4">
+          <h2 class="font-bold text-lg">samosa</h2>
+          <p class="text-sm text-gray-500">samosa, Italian</p>
+          <p class="font-semibold mt-2">⭐ 4.3 • 20-25 mins</p>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="bg-white rounded-xl shadow hover:scale-105 duration-200">
+        <img src="coffi1.jpeg" />
+        <div class="p-4">
+          <h2 class="font-bold text-lg">coffee</h2>
+          <p class="text-sm text-gray-500">coffee</p>
+          <p class="font-semibold mt-2">⭐ 4.3 • 20-25 mins</p>
+        </div>
+      </div>
+
+      <!-- CARD 6-->
+      <div class="bg-white rounded-xl shadow hover:scale-105 duration-200">
+        <img src="coldrink.jpeg"rounded-t-xl w-full h-44 object-cover">
+        <div class="p-4">
+          <h2 class="font-bold text-lg">coldrink,dew,cock</h2>
+          <p class="text-sm text-gray-500">coldrink</p>
+          <p class="font-semibold mt-2">⭐ 4.3 • 20-25 mins</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
